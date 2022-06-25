@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F60C07F02864C12800FD5FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C07EF2864C12800FD5FAA /* AppDelegate.swift */; };
-		F60C07F22864C12800FD5FAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C07F12864C12800FD5FAA /* SceneDelegate.swift */; };
-		F60C07F42864C12800FD5FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C07F32864C12800FD5FAA /* ViewController.swift */; };
-		F60C07F72864C12800FD5FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C07F52864C12800FD5FAA /* Main.storyboard */; };
 		F60C07F92864C12B00FD5FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60C07F82864C12B00FD5FAA /* Assets.xcassets */; };
 		F60C07FC2864C12B00FD5FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C07FA2864C12B00FD5FAA /* LaunchScreen.storyboard */; };
 		F60C08072864C12B00FD5FAA /* myMovieTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08062864C12B00FD5FAA /* myMovieTrackerAppTests.swift */; };
 		F60C08112864C12B00FD5FAA /* myMovieTrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08102864C12B00FD5FAA /* myMovieTrackerAppUITests.swift */; };
 		F60C08132864C12B00FD5FAA /* myMovieTrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08122864C12B00FD5FAA /* myMovieTrackerAppUITestsLaunchTests.swift */; };
+		F60C08232864C31B00FD5FAA /* MovieTrackerRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08222864C31B00FD5FAA /* MovieTrackerRootVC.swift */; };
+		F60C08252864DB6800FD5FAA /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */; };
+		F60C08272864F15300FD5FAA /* MovieApiUrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08262864F15300FD5FAA /* MovieApiUrlSession.swift */; };
+		F60C08292864F1AE00FD5FAA /* WelcomeDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08282864F1AE00FD5FAA /* WelcomeDataResponse.swift */; };
+		F6C7F8DD28662B0000ADAC96 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F6C7F8DC28662B0000ADAC96 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,6 @@
 /* Begin PBXFileReference section */
 		F60C07EC2864C12800FD5FAA /* myMovieTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMovieTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60C07EF2864C12800FD5FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F60C07F12864C12800FD5FAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F60C07F32864C12800FD5FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F60C07F62864C12800FD5FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60C07F82864C12B00FD5FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60C07FB2864C12B00FD5FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60C07FD2864C12B00FD5FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,10 @@
 		F60C080C2864C12B00FD5FAA /* myMovieTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMovieTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60C08102864C12B00FD5FAA /* myMovieTrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMovieTrackerAppUITests.swift; sourceTree = "<group>"; };
 		F60C08122864C12B00FD5FAA /* myMovieTrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMovieTrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F60C08222864C31B00FD5FAA /* MovieTrackerRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerRootVC.swift; sourceTree = "<group>"; };
+		F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		F60C08262864F15300FD5FAA /* MovieApiUrlSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiUrlSession.swift; sourceTree = "<group>"; };
+		F60C08282864F1AE00FD5FAA /* WelcomeDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeDataResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C7F8DD28662B0000ADAC96 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +103,10 @@
 		F60C07EE2864C12800FD5FAA /* myMovieTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				F60C08212864C2EB00FD5FAA /* CollectionViewCells */,
+				F60C08202864C2DB00FD5FAA /* ViewControllers */,
+				F60C081F2864C2D400FD5FAA /* Network */,
 				F60C07EF2864C12800FD5FAA /* AppDelegate.swift */,
-				F60C07F12864C12800FD5FAA /* SceneDelegate.swift */,
-				F60C07F32864C12800FD5FAA /* ViewController.swift */,
-				F60C07F52864C12800FD5FAA /* Main.storyboard */,
 				F60C07F82864C12B00FD5FAA /* Assets.xcassets */,
 				F60C07FA2864C12B00FD5FAA /* LaunchScreen.storyboard */,
 				F60C07FD2864C12B00FD5FAA /* Info.plist */,
@@ -127,6 +131,31 @@
 			path = myMovieTrackerAppUITests;
 			sourceTree = "<group>";
 		};
+		F60C081F2864C2D400FD5FAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F60C08262864F15300FD5FAA /* MovieApiUrlSession.swift */,
+				F60C08282864F1AE00FD5FAA /* WelcomeDataResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F60C08202864C2DB00FD5FAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F60C08222864C31B00FD5FAA /* MovieTrackerRootVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F60C08212864C2EB00FD5FAA /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +172,9 @@
 			dependencies = (
 			);
 			name = myMovieTrackerApp;
+			packageProductDependencies = (
+				F6C7F8DC28662B0000ADAC96 /* Kingfisher */,
+			);
 			productName = myMovieTrackerApp;
 			productReference = F60C07EC2864C12800FD5FAA /* myMovieTrackerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,9 @@
 				Base,
 			);
 			mainGroup = F60C07E32864C12800FD5FAA;
+			packageReferences = (
+				F6C7F8DB28662B0000ADAC96 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F60C07ED2864C12800FD5FAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +268,6 @@
 			files = (
 				F60C07FC2864C12B00FD5FAA /* LaunchScreen.storyboard in Resources */,
 				F60C07F92864C12B00FD5FAA /* Assets.xcassets in Resources */,
-				F60C07F72864C12800FD5FAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60C07F42864C12800FD5FAA /* ViewController.swift in Sources */,
+				F60C08252864DB6800FD5FAA /* MovieCollectionViewCell.swift in Sources */,
+				F60C08232864C31B00FD5FAA /* MovieTrackerRootVC.swift in Sources */,
 				F60C07F02864C12800FD5FAA /* AppDelegate.swift in Sources */,
-				F60C07F22864C12800FD5FAA /* SceneDelegate.swift in Sources */,
+				F60C08292864F1AE00FD5FAA /* WelcomeDataResponse.swift in Sources */,
+				F60C08272864F15300FD5FAA /* MovieApiUrlSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F60C07F52864C12800FD5FAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F60C07F62864C12800FD5FAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F60C07FA2864C12B00FD5FAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +470,9 @@
 				INFOPLIST_FILE = myMovieTrackerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +498,9 @@
 				INFOPLIST_FILE = myMovieTrackerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -602,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6C7F8DB28662B0000ADAC96 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6C7F8DC28662B0000ADAC96 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6C7F8DB28662B0000ADAC96 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F60C07E42864C12800FD5FAA /* Project object */;
 }
