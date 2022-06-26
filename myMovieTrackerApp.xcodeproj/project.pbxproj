@@ -17,6 +17,8 @@
 		F60C08252864DB6800FD5FAA /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */; };
 		F60C08272864F15300FD5FAA /* MovieApiUrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08262864F15300FD5FAA /* MovieApiUrlSession.swift */; };
 		F60C08292864F1AE00FD5FAA /* WelcomeDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C08282864F1AE00FD5FAA /* WelcomeDataResponse.swift */; };
+		F67389A22867AD3500EBD049 /* MovieTrackerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67389A12867AD3500EBD049 /* MovieTrackerDetailVC.swift */; };
+		F67389A52867ADC100EBD049 /* MovieDetailVievCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67389A42867ADC100EBD049 /* MovieDetailVievCell.swift */; };
 		F6C7F8DD28662B0000ADAC96 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F6C7F8DC28662B0000ADAC96 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		F60C08262864F15300FD5FAA /* MovieApiUrlSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiUrlSession.swift; sourceTree = "<group>"; };
 		F60C08282864F1AE00FD5FAA /* WelcomeDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeDataResponse.swift; sourceTree = "<group>"; };
+		F67389A12867AD3500EBD049 /* MovieTrackerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieTrackerDetailVC.swift; path = ../../../MovieTrackerDetailVC.swift; sourceTree = "<group>"; };
+		F67389A42867ADC100EBD049 /* MovieDetailVievCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVievCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		F60C07EE2864C12800FD5FAA /* myMovieTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				F67389A32867AD9300EBD049 /* MovieDetailViewCell */,
 				F60C08212864C2EB00FD5FAA /* CollectionViewCells */,
 				F60C08202864C2DB00FD5FAA /* ViewControllers */,
 				F60C081F2864C2D400FD5FAA /* Network */,
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F60C08222864C31B00FD5FAA /* MovieTrackerRootVC.swift */,
+				F67389A12867AD3500EBD049 /* MovieTrackerDetailVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +160,14 @@
 				F60C08242864DB6800FD5FAA /* MovieCollectionViewCell.swift */,
 			);
 			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F67389A32867AD9300EBD049 /* MovieDetailViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F67389A42867ADC100EBD049 /* MovieDetailVievCell.swift */,
+			);
+			path = MovieDetailViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +311,8 @@
 				F60C07F02864C12800FD5FAA /* AppDelegate.swift in Sources */,
 				F60C08292864F1AE00FD5FAA /* WelcomeDataResponse.swift in Sources */,
 				F60C08272864F15300FD5FAA /* MovieApiUrlSession.swift in Sources */,
+				F67389A52867ADC100EBD049 /* MovieDetailVievCell.swift in Sources */,
+				F67389A22867AD3500EBD049 /* MovieTrackerDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

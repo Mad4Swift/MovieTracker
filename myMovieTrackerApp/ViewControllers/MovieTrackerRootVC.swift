@@ -82,9 +82,16 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
     cell.movieImage.kf.setImage(with: posterImageUrl)
     
     return cell
-
 }
 
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+            
+        let movieDetailVC = MovieTrackerDetailVC()
+        movieDetailVC.movie = movieBaseList[indexPath.row]
+        navigationController?.pushViewController(movieDetailVC, animated: true)
+    }
+    
+    
 }
 
 extension LosslessStringConvertible {
